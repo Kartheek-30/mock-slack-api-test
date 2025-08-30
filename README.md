@@ -16,19 +16,25 @@ A simple mock Slack API built with Node.js and Express. This project provides en
 ## Project Structure
 
 ```
-mock-slack-api/
-├── data/
-│   ├── license.json
-│   └── users.json
-├── server.js
-└── README.md
+Mock Slack API
+ ├── src
+ │   ├── data
+ │   │   ├── license.json
+ │   │   └── users.json
+ │   ├── routes
+ │   │   ├── license.js
+ │   │   └── users.js
+ │   ├── app.js
+ │   └── server.js
+ ├── package.json
+ ├── README.md
 ```
 
 ## Setup
 
 1. **Clone the repository:**
    ```sh
-   git clone 
+   git clone repo-name
    cd mock-slack-api
    ```
 
@@ -86,7 +92,7 @@ mock-slack-api/
 
 4. **Start the server:**
    ```sh
-   node server.js
+   node src/server.js
    ```
 
 5. **API Endpoints:**
@@ -141,5 +147,3 @@ mock-slack-api/
 - All responses follow Slack API conventions with an `ok` field.
 - Data is read from JSON files on each request (no database required).
 - Extend the mock data as needed for your use case.
-
----# mock-slack-api-test

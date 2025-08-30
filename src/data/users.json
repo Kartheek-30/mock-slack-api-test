@@ -1,0 +1,23 @@
+[
+	{
+        "id": "USR01",
+		"name": "Joy Tillman",
+		"email": "joy@gmail.com",
+		"isAdmin": true,
+        "status": "active"
+	},
+	{
+        "id": "USR02",
+		"name": "Holly Wilder",
+		"email": "holly@gmail.com",
+		"isAdmin": false,
+        "status": "active"
+	},
+	{
+        "id": "USR03",
+		"name": "Bree Talley",
+		"email": "bree.@gmail.com",
+		"isAdmin": false,
+        "status": "inactive"
+	}
+]

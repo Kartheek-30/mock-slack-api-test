@@ -1,0 +1,16 @@
+{
+    "licenseType": "Enterprise",
+    "expiryDate" : "2025-12-31",
+    "maxUsers" : 50,
+    "usedUsers" : 3,
+    "features": [
+        "Priority Support",
+        "Advanced Analytics"
+    ],
+    "issuedTo": "ABC Group of Technology",
+    "licenseKey": "XYZ-123-ENTERPRISE-456",
+    "terms": "This license is non-transferable and valid for the specified number of users only. Unauthorized use or distribution of the software is prohibited.",
+    "contactEmail": "help.issues@mockslack.com",
+    "contactPhone": "+1-800-555-1234",
+    "version": "2.5.1"
+}
