@@ -2,14 +2,14 @@ const express = require('express');
 const router = express.Router();
 const users = require('../data/users.json');
 
-router.get('.list', (req, res) => {
+router.get('/users.list', (req, res) => {
     res.status(200).json({
         ok: true,
         members: users
     });
 });
 
-router.get('.info', (req, res) => {
+router.get('/users.info', (req, res) => {
     const userId = req.query.user_id;
 
     if(!userId) {

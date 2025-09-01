@@ -6,8 +6,8 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/users', usersRoute);
-app.use('/license', licenseRoute);
+app.use('/', usersRoute);
+app.use('/', licenseRoute);
 
 app.get('/', (req, res) => {
     res.status(200).json({
